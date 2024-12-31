@@ -8,7 +8,7 @@ export default defineConfig({
     emptyOutDir: true,
     lib: {
       entry: 'src/index.ts',
-      formats: ['es'],
+      formats: ['es', 'cjs'],
       name: 'index',
       fileName: 'index',
     },
