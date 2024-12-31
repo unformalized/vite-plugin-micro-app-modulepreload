@@ -1,6 +1,5 @@
 {
   "name": "vite-plugin-micro-app-modulepreload",
-  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -8,6 +7,16 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unformalized/vite-plugin-micro-app-modulepreload.git"
+  },
+  "author": "unformalized",
+  "bugs": {
+    "url": "https://github.com/unformalized/vite-plugin-micro-app-modulepreload/issues"
+  },
+  "homepage": "https://github.com/unformalized/vite-plugin-micro-app-modulepreload#readme",
+  "license": "MIT",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
   "exports": {
